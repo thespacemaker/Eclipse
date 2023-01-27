@@ -30,4 +30,7 @@ const toggleLocales = () => {
       <div i-carbon-logo-github />
     </a>
   </nav>
+  <div class="my-2">
+    2023 Eclipse Entertainment All Rights Reserved | Made with &#9829; by Spacemaker
+  </div>
 </template>
