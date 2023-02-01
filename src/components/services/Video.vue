@@ -7,9 +7,11 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="bg-gray grid grid-cols-2 w-full">
-    <div class="mx-auto p-8">
-      <h2>{{ props.title }}</h2>
+  <div class="bg-white grid grid-cols-2 w-full">
+    <div class="mx-auto p-8 text-black">
+      <h2 class="my-2">
+        {{ props.title }}
+      </h2>
       <p v-html="props.subtitle" />
     </div>
     <div class="mx-auto p-8">
