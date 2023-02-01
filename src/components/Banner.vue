@@ -1,8 +1,17 @@
+<script setup lang="ts">
+const props = defineProps({
+  title: String,
+  subtitle: String,
+})
+</script>
+
 <template>
   <div class="w-full justify-center py-12">
-    <h1 class="my-12">
-      ECLIPSE Entertainment
+    <h1 v-if="props.title" class="my-12">
+      {{ props.title }}
     </h1>
-    <h4>THE INDUSTRY LEADER IN CUTTING EDGE THEME EVENT PRODUCTIONS</h4>
+    <h4 v-if="props.subtitle">
+      {{ props.subtitle }}
+    </h4>
   </div>
 </template>

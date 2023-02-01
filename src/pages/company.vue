@@ -4,7 +4,10 @@
 
 <template>
   <div class="bg-black w-full">
-    <Banner />
+    <Banner
+      title="ECLIPSE Entertainment"
+      subtitle="THE INDUSTRY LEADER IN CUTTING EDGE THEME EVENT PRODUCTIONS"
+    />
     <About />
     <PreferredVendors />
     <Team />
