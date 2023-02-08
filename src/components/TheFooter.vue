@@ -9,28 +9,36 @@ const toggleLocales = () => {
 </script>
 
 <template>
-  <nav text-xl mt-6>
-    <RouterLink class="icon-btn mx-2" to="/" :title="t('button.home')">
-      <div i-carbon-campsite />
-    </RouterLink>
-
-    <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
-      <div i="carbon-sun dark:carbon-moon" />
-    </button>
-
-    <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales()">
-      <div i-carbon-language />
-    </a>
-
-    <RouterLink class="icon-btn mx-2" to="/about" :title="t('button.about')">
-      <div i-carbon-dicom-overlay />
-    </RouterLink>
-
-    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
-      <div i-carbon-logo-github />
-    </a>
-  </nav>
+  <div class="flex justify-around p-12">
+    <div class="max-w-80 flex flex-col text-left">
+      <img src="headerlogo.png">
+      <p class="pl-6">
+        Eclipse ENTERTAINMENT, LLC
+      </p>
+      <p class="pl-6">
+        7336 Dogwood Park Dr
+      </p>
+      <p class="pl-6">
+        Richland Hills, TX, 76118
+      </p>
+      <p class="pl-6">
+        p - (817) 261-0038
+      </p>
+      <p class="pl-6">
+        e - info@eclipseentertainment.com
+      </p>
+    </div>
+    <div class="w-30 h-30">
+      <h2>Instagram - eclipseentertainmentCO</h2>
+    </div>
+    <div class="w-30 h-30">
+      <h2>TikTok - eclipseentertainmentCO</h2>
+    </div>
+    <div class="w-30 h-30">
+      <h2>Facebook - eclipseentertainmentllc</h2>
+    </div>
+  </div>
   <div class="my-2">
-    2023 Eclipse Entertainment All Rights Reserved | Made with &#9829; by Spacemaker
+    2023 Eclipse Entertainment, LLC. All Rights Reserved | Made with &#9829; by Spacemaker
   </div>
 </template>

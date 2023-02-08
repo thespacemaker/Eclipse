@@ -1,14 +1,14 @@
 <template>
-  <div class="flex bg-white p-12">
-    <div class="flex flex-col">
-      <h2 class="text-black">
+  <div class="flex bg-white p-12 justify-center flex-wrap">
+    <div class="flex flex-col xl:pr-12 xl:mr-12 mt-12">
+      <h2 class="text-black rale xs-text-center xl-text-left text-8 mb-4">
         About Eclipse
       </h2>
-      <iframe class="my-2" width="280" height="158" src="https://www.youtube.com/embed/fBGF8ovOU3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
-      <iframe class="my-2" width="280" height="158" src="https://www.youtube.com/embed/K9oJNNqoXcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+      <iframe class="my-4" width="370" height="209" src="https://www.youtube.com/embed/fBGF8ovOU3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+      <iframe class="my-4" width="370" height="209" src="https://www.youtube.com/embed/K9oJNNqoXcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
     </div>
-    <div class="mx-4">
-      <p class="text-black">
+    <div class="mx-4 max-w-prose mt-12">
+      <p class="xs-text-center xl-text-left">
         Eclipse Entertainment, LLC, established in 1985, began producing custom stage shows, music, specialty acts and special events across the U.S. for the largest theme park chain in the world and quickly became a driving force in high quality, family entertainment. Now, an international award-winning, full service entertainment and special event production company, we specialize in putting the WOW into all types of events. Eclipse Entertainment has experience producing grand openings, product launches, corporate theatre, promotions, event marketing, fundraising galas and many more events.
         <br><br> Our resources encompass basic talent procurement to full, successful, turn-key special event production … no event is too big or too small. Eclipse showcases over two million dollars in wardrobe in its 5,500 square foot production facility/studio and employs a talented portfolio of more than 500 award-winning performing vocalists, dancers, actors, bands, DJs, music ensembles, specialty acts and more.
         <br><br>

@@ -2,21 +2,22 @@
 </script>
 
 <template>
-  <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
-    <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
-  </video>
+  <iframe id="background-video" src="https://www.youtube.com/embed/NfjOgnagE8s?&autoplay=1&mute=1&playsinline=1&controls=0&modestbranding&rel=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+  <div id="text">
+    <img src="headerlogo.png">
+  </div>
 </template>
 
 <style scoped>
 #background-video {
     width: 100vw;
     height: 100vh;
-    object-fit: cover;
+    object-fit: stretch;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    z-index: -1;
+    z-index: -10;
   }
 
   h1, h2 {
@@ -39,5 +40,12 @@
       background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
       background-size: cover;
     }
+}
+#text{
+  position: absolute;
+  color: #FFFFFF;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>

@@ -21,10 +21,6 @@ const links = ref([
     url: '/gallery',
   },
   {
-    title: 'NEWS & INFORMATION',
-    url: '/news',
-  },
-  {
     title: 'CONTACT ECLIPSE',
     url: '/contact',
   },
@@ -32,7 +28,7 @@ const links = ref([
 </script>
 
 <template>
-  <div class="bg-gray-500 flex justify-end h-20 w-full">
+  <div class="flex justify-end h-20 w-full absolute fixed bg-transparent">
     <a
       v-for="link in links"
       :key="link.title"

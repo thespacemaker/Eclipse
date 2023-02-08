@@ -5,12 +5,13 @@
 <template>
   <div class="bg-black w-full">
     <Banner
-      title="ECLIPSE Entertainment"
+      bold-title="ECLIPSE"
+      title="Entertainment"
       subtitle="THE INDUSTRY LEADER IN CUTTING EDGE THEME EVENT PRODUCTIONS"
     />
     <About />
     <PreferredVendors />
-    <Team />
+    <!-- <Team /> -->
     <Reviews />
   </div>
 </template>

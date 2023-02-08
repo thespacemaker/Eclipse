@@ -5,7 +5,8 @@
 <template>
   <div class="bg-black w-full">
     <Banner
-      title="Complete Turn Key Event Production"
+      bold-title="COMPLETE"
+      title="Turn Key Event Production"
       subtitle="WE ARE YOUR ONE-STOP SOURCE FOR THEMED ENTERTAINMENT PRODUCTION SERVICES."
     />
     <Categories />

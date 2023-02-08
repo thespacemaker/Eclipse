@@ -5,7 +5,8 @@
 <template>
   <div class="bg-black w-full">
     <Banner
-      title="Contact Eclipse Entertainment"
+      bold-title="CONTACT"
+      title="Eclipse Entertainment"
       subtitle="THE INDUSTRY’S SOLUTION TO SUCCESSFUL THEMED EVENT PRODUCTION!"
     />
     <div class="flex justify-center">

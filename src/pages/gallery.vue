@@ -5,9 +5,25 @@
 <template>
   <div class="bg-black w-full">
     <Banner
-      title="Gallery"
-      subtitle="Let Us Entertain You!"
+      class="above"
+      title="Video & Image Gallery"
+      subtitle="LET US ENTERTAIN YOU!"
     />
-    <PhotoGallery />
+
+    <div class="static h-full transparent">
+      <PhotoGallery class="w-full below py-12" />
+    </div>
   </div>
 </template>
+
+<style scoped>
+.above {
+  position: static;
+  z-index: 1;
+}
+
+.below {
+  position: absolute;
+  z-index: -1;
+}
+</style>
