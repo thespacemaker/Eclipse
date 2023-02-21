@@ -9,7 +9,7 @@ const toggleLocales = () => {
 </script>
 
 <template>
-  <div class="flex justify-around p-12">
+  <div class="flex justify-around flex-wrap p-12">
     <div class="max-w-80 flex flex-col text-left">
       <img src="headerlogo.png">
       <p class="pl-6">
@@ -28,14 +28,16 @@ const toggleLocales = () => {
         e - info@eclipseentertainment.com
       </p>
     </div>
-    <div class="w-30 h-30">
-      <h2>Instagram - eclipseentertainmentCO</h2>
-    </div>
-    <div class="w-30 h-30">
-      <h2>TikTok - eclipseentertainmentCO</h2>
-    </div>
-    <div class="w-30 h-30">
-      <h2>Facebook - eclipseentertainmentllc</h2>
+    <div class="flex p-8 md:w-400 justify-around">
+      <div class="w-30 h-30">
+        <h2>Instagram - eclipseentertainmentCO</h2>
+      </div>
+      <div class="w-30 h-30">
+        <h2>TikTok - eclipseentertainmentCO</h2>
+      </div>
+      <div class="w-30 h-30">
+        <h2>Facebook - eclipseentertainmentllc</h2>
+      </div>
     </div>
   </div>
   <div class="my-2">

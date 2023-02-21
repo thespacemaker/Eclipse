@@ -4,8 +4,8 @@
       <h2 class="text-black rale xs-text-center xl-text-left text-8 mb-4">
         About Eclipse
       </h2>
-      <iframe class="my-4" width="370" height="209" src="https://www.youtube.com/embed/fBGF8ovOU3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
-      <iframe class="my-4" width="370" height="209" src="https://www.youtube.com/embed/K9oJNNqoXcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+      <iframe class="my-4 hidden xl:block" width="370" height="209" src="https://www.youtube.com/embed/fBGF8ovOU3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+      <iframe class="my-4 hidden xl:block" width="370" height="209" src="https://www.youtube.com/embed/K9oJNNqoXcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
     </div>
     <div class="mx-4 max-w-prose mt-12">
       <p class="xs-text-center xl-text-left">

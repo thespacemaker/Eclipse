@@ -37,7 +37,7 @@ const reviews = ref([
   <div class="background flex flex-cols text-center">
     <div class="w-full h-full overlay p-12">
       <swiper-container
-        class="w-400"
+        class="w-80 sm:w-160 md-200 xl:w-300"
         :slides-per-view="1"
         :space-between="spaceBetween"
         :centered-slides="true"
@@ -51,9 +51,9 @@ const reviews = ref([
         <swiper-slide
           v-for="review in reviews"
           :key="review.text"
-          class="w-600 text-center"
+          class="w-300 text-center"
         >
-          <div class="m-12">
+          <div class="md:m-12">
             <p
               class="text-7 text-white font-extralight"
             >

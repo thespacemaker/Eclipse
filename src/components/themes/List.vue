@@ -80,17 +80,19 @@ const acts3List = ref([
       <h2>Eclipse Entertainment is an <span class="font-bold">all</span>-inclusive event provider.<br> Our acts include, but not limited to:</h2>
     </div>
     <div class="flex p-8  text-black w-full justify-center">
-      <ul class="mx-4">
+      <ul class="mx-4 text-left">
         <li v-for="item in actsList">
-          <ion-icon class="text-blue-500" name="md-arrow-forward" />{{ item }}
+          <div>
+            <ion-icon class=" text-blue-500" name="md-arrow-forward" />{{ item }}
+          </div>
         </li>
       </ul>
-      <ul class="mx-4">
+      <ul class="mx-4 text-left">
         <li v-for="item in acts2List">
           <ion-icon class="text-blue-500" name="md-arrow-forward" />{{ item }}
         </li>
       </ul>
-      <ul class="mx-4">
+      <ul class="mx-4 text-left">
         <li v-for="item in acts3List">
           <ion-icon class="text-blue-500" name="md-arrow-forward" />{{ item }}
         </li>

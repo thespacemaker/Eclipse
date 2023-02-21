@@ -4,7 +4,7 @@
 <template>
   <iframe id="background-video" src="https://www.youtube.com/embed/NfjOgnagE8s?&autoplay=1&mute=1&playsinline=1&controls=0&modestbranding&rel=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
   <div id="text">
-    <img src="headerlogo.png">
+    <img class="invisible md:visible" src="headerlogo.png">
   </div>
 </template>
 

@@ -15,7 +15,8 @@ const props = defineProps({
       <p class="xl-text-left" v-html="props.subtitle" />
     </div>
     <div class="p-8">
-      <iframe width="560" height="315" :src="props.videoUrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+      <iframe class="hidden md:block" width="560" height="315" :src="props.videoUrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+      <iframe class="md:hidden" width="336" height="189" :src="props.videoUrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
     </div>
   </div>
 </template>

@@ -10,6 +10,7 @@ declare module '@vue/runtime-core' {
     About: typeof import('./components/company/About.vue')['default']
     Banner: typeof import('./components/Banner.vue')['default']
     Categories: typeof import('./components/services/Categories.vue')['default']
+    FileUpload: typeof import('./components/inputs/FileUpload.vue')['default']
     Form: typeof import('./components/contact/Form.vue')['default']
     Hero: typeof import('./components/home/Hero.vue')['default']
     Info: typeof import('./components/contact/Info.vue')['default']

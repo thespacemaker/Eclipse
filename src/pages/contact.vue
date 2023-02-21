@@ -9,7 +9,7 @@
       title="Eclipse Entertainment"
       subtitle="THE INDUSTRY’S SOLUTION TO SUCCESSFUL THEMED EVENT PRODUCTION!"
     />
-    <div class="flex justify-center">
+    <div class="flex justify-center py-12">
       <div class="m-2">
         <Form />
       </div>

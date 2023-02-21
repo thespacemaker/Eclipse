@@ -18,7 +18,7 @@ const { t } = useI18n()
   <div>
     <Hero />
     <Welcome />
-    <VideoBanner
+    <!-- <VideoBanner
       title="Cutting Edge Themed Entertainment"
       subtitle="Now the largest event theme entertainment production company in the Southwest & The Industry Leader in Cutting Edge Themed Entertainment!- Eclipse looks forward to making your next event Fantabulous!!!
       <br><br>
@@ -26,8 +26,8 @@ const { t } = useI18n()
       "
       video-url="https://www.youtube.com/embed/Iyh4GPj5HUU"
       class="p-12"
-    />
-    <Reviews />
+    /> -->
+    <!-- <Reviews /> -->
   </div>
 </template>
 

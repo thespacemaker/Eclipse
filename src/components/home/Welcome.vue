@@ -1,20 +1,9 @@
 <script setup lang="ts">
 import { register } from 'swiper/element/bundle'
-// import Swiper core and required modules
-import { A11y, Navigation, Pagination, Scrollbar } from 'swiper'
 
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from 'swiper/vue'
-
-// Import Swiper styles
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import 'swiper/css/scrollbar'
 register()
 
 const spaceBetween = 10
-
 const onProgress = (e) => {
   const [swiper, progress] = e.detail
   console.log(progress)
@@ -23,8 +12,6 @@ const onProgress = (e) => {
 const onSlideChange = (e) => {
   console.log('slide changed')
 }
-
-const modules = [Navigation, Pagination, Scrollbar, A11y]
 
 const images = [
   {
@@ -66,12 +53,12 @@ const buttons = [
 <template>
   <div class="bg-white flex justify-center p-12">
     <div class="mt-12">
-      <h2 class="text-black text-20 rale my-12">
+      <h2 class="text-black text-8 md:text-20 rale my-12">
         Welcome To The Show
       </h2>
       <div class="mx-auto my-auto">
         <swiper-container
-          class="max-w-400"
+          class="hidden md:block md:max-w-200 lg:max-w-300 xl:max-w-400"
           :slides-per-view="3"
           :space-between="spaceBetween"
           :centered-slides="false"
@@ -81,7 +68,7 @@ const buttons = [
           @progress="onProgress"
           @slidechange="onSlideChange"
         >
-          <SwiperSlide
+          <swiper-slide
             v-for="img in images"
             :key="img.src"
             class="text-center w-15"
@@ -89,10 +76,10 @@ const buttons = [
             <div class="m-12">
               <img :src="img.src">
             </div>
-          </SwiperSlide>
+          </swiper-slide>
         </swiper-container>
       </div>
-      <div class="flex justify-center my-8">
+      <div class="flex flex-wrap justify-center my-8">
         <button
           v-for="button in buttons"
           :key="button.title"
@@ -102,7 +89,7 @@ const buttons = [
         </button>
       </div>
       <div class="my-auto mx-auto">
-        <p class="my-8 w-300 my-auto mx-auto text-5">
+        <p class="my-8 text-wrap my-auto mx-auto md:text-5 md:max-w-prose">
           Eclipse Entertainment can elevate your event by delivering your message and promoting your brand. Watch as the talent and experience of our team works to manage your event to the finest detail. We’ll manage the logistics, operations, and execution as your event takes life and the space is transformed to a whole new level by utilizing our strategic partnerships, customization, and production abilities to deliver effective execution. The initiative of Eclipse Entertainment is to deliver an on stage and behind the scenes magic that lends itself to the final denouement. All orchestrated as your vision is brought to life.
         </p>
         <button class="text-black my-4">
