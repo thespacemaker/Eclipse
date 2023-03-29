@@ -11,6 +11,6 @@
     />
     <List />
     <Reviews />
-    <List />
+    <Vendors />
   </div>
 </template>

@@ -1,10 +1,57 @@
 <script setup lang="ts">
+const galleryPhotos = ref([
+  {
+    src: 'img/7.jpg',
+    aspect: 'aspect-video',
+  },
+  {
+    src: 'img/air.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/animals.jpg',
+    aspect: 'aspect-portrait',
+  },
+  {
+    src: 'img/broadway.jpg',
+    aspect: 'aspect-video',
+  },
+  {
+    src: 'img/madhatter.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/tall.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/moulinrouge.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/peacock.jpg',
+    aspect: 'aspect-video',
+  },
+  {
+    src: 'img/ringleader.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/tall.jpg',
+    aspect: 'aspect-square',
+  },
+])
 </script>
 
 <template>
   <div class="gap-8 columns-3">
-    <img class="w-full aspect-video mb-6" src="https://picsum.photos/500/300?random=1">
-    <img class="w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=2">
+    <img
+      v-for="(img, index) in galleryPhotos"
+      :key="index"
+      class="w-full mb-6"
+      :src="img.src"
+    >
+    <!-- <img class="w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=2">
     <img class="w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=3">
     <img class="w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=4">
     <img class="w-full aspect-video mb-6" src="https://picsum.photos/500/300?random=5">
@@ -16,7 +63,7 @@
     <img class="w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=11">
     <img class="w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=12">
     <img class="w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=13">
-    <img class="w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=14">
+    <img class="w-full aspect-square mb-6" src="https://picsum.photos/500/300?random=14"> -->
   </div>
 </template>
 

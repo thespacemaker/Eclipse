@@ -15,25 +15,25 @@ const onSlideChange = (e) => {
 
 const images = [
   {
-    src: 'src/assets/img/broadway.jpg',
+    src: 'img/broadway.jpg',
   },
   {
-    src: 'src/assets/img/ringleader.jpg',
+    src: 'img/ringleader.jpg',
   },
   {
-    src: 'src/assets/img/peacock.jpg',
+    src: 'img/peacock.jpg',
   },
   {
-    src: 'src/assets/img/air.jpg',
+    src: 'img/air.jpg',
   },
   {
-    src: 'src/assets/img/moulinrouge.jpg',
+    src: 'img/moulinrouge.jpg',
   },
   {
-    src: 'src/assets/img/madhatter.jpg',
+    src: 'img/madhatter.jpg',
   },
   {
-    src: 'src/assets/img/animals.jpg',
+    src: 'img/animals.jpg',
   },
 ]
 

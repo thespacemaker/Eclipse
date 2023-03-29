@@ -11,32 +11,41 @@ const toggleLocales = () => {
 <template>
   <div class="flex justify-around flex-wrap p-12">
     <div class="max-w-80 flex flex-col text-left">
-      <img src="headerlogo.png">
+      <img src="../assets/img/headerlogo.png">
       <p class="pl-6">
         Eclipse ENTERTAINMENT, LLC
       </p>
-      <p class="pl-6">
-        7336 Dogwood Park Dr
-      </p>
-      <p class="pl-6">
-        Richland Hills, TX, 76118
-      </p>
-      <p class="pl-6">
-        p - (817) 261-0038
-      </p>
-      <p class="pl-6">
-        e - info@eclipseentertainment.com
-      </p>
+      <a href="https://www.google.com/maps/place/7336+Dogwood+Park+Dr,+Richland+Hills,+TX+76118/data=!4m2!3m1!1s0x864e790acbadc00f:0xed19df0925123fab?sa=X&ved=2ahUKEwjpvuDX0a39AhWhnGoFHb4WCzYQ8gF6BAgIEAI">
+        <p class="pl-6">
+          7336 Dogwood Park Dr
+        </p>
+        <p class="pl-6">
+          Richland Hills, TX, 76118
+        </p>
+      </a>
+      <a href="tel:+18172610038">
+        <p class="pl-6">
+          p - (817) 261-0038
+        </p>
+      </a>
+      <a href="mailto:info@eclipseentertainment.com">
+        <p class="pl-6">
+          e - info@eclipseentertainment.com
+        </p>
+      </a>
     </div>
     <div class="flex p-8 md:w-400 justify-around">
-      <div class="w-30 h-30">
-        <h2>Instagram - eclipseentertainmentCO</h2>
+      <div class="w-30 h-30 flex flex-col justify-center items-center">
+        <svg id="instagram" class="fill-white w-10 my-4" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24"><path d="M17.34,5.46h0a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Zm4.6,2.42a7.59,7.59,0,0,0-.46-2.43,4.94,4.94,0,0,0-1.16-1.77,4.7,4.7,0,0,0-1.77-1.15,7.3,7.3,0,0,0-2.43-.47C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.3,7.3,0,0,0-2.43.47A4.78,4.78,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.78,4.78,0,0,0,1.77,1.15,7.3,7.3,0,0,0,2.43.47C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.3,7.3,0,0,0,2.43-.47,4.7,4.7,0,0,0,1.77-1.15,4.85,4.85,0,0,0,1.16-1.77,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.06,3.06,0,0,1-.75,1.15,3.19,3.19,0,0,1-1.15.75,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.73,5.73,0,0,1,6.1,19.8,3.27,3.27,0,0,1,5,19.05a3,3,0,0,1-.74-1.15A5.54,5.54,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.54,5.54,0,0,1,4.21,6.1,3,3,0,0,1,5,5,3.14,3.14,0,0,1,6.1,4.2,5.73,5.73,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34A3.06,3.06,0,0,1,19.05,5,3.06,3.06,0,0,1,19.8,6.1,5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16ZM12,6.87A5.13,5.13,0,1,0,17.14,12,5.12,5.12,0,0,0,12,6.87Zm0,8.46A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z" /></svg>
+        <a href="https://www.instagram.com/eclipseentertainmentco/"><h2 class="text-center"><h2>eclipseentertainmentCO</h2></h2></a>
       </div>
-      <div class="w-30 h-30">
-        <h2>TikTok - eclipseentertainmentCO</h2>
+      <div class="w-30 h-30 flex flex-col justify-center items-center">
+        <svg id="tiktok" class="fill-white w-20 my-4" xmlns="http://www.w3.org/2000/svg" width="48" height="48"><path d="M38.4 21.68V16c-2.66 0-4.69-.71-6-2.09a8.9 8.9 0 0 1-2.13-5.64v-.41l-5.37-.13V30.8a5 5 0 1 1-3.24-5.61v-5.5a10.64 10.64 0 0 0-1.7-.14 10.36 10.36 0 1 0 10.36 10.36 10.56 10.56 0 0 0-.08-1.27v-9.15a14.48 14.48 0 0 0 8.16 2.19Z" /></svg>
+        <a href="https://www.tiktok.com/@eclipseentertainmentco"><h2>eclipseentertainmentCO</h2></a>
       </div>
-      <div class="w-30 h-30">
-        <h2>Facebook - eclipseentertainmentllc</h2>
+      <div class="w-30 h-30 flex flex-col justify-center items-center">
+        <svg id="facebook" class="fill-white w-10 my-4" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24"><path d="M20.9,2H3.1A1.1,1.1,0,0,0,2,3.1V20.9A1.1,1.1,0,0,0,3.1,22h9.58V14.25h-2.6v-3h2.6V9a3.64,3.64,0,0,1,3.88-4,20.26,20.26,0,0,1,2.33.12v2.7H17.3c-1.26,0-1.5.6-1.5,1.47v1.93h3l-.39,3H15.8V22h5.1A1.1,1.1,0,0,0,22,20.9V3.1A1.1,1.1,0,0,0,20.9,2Z" /></svg>
+        <a href="https://facebook.com/eclipseentertainmentllc"><h2>eclipseentertainmentllc</h2></a>
       </div>
     </div>
   </div>

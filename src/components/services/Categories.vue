@@ -12,7 +12,7 @@ const images = [
   },
   {
     text: 'EVENT DESIGN & MANAGEMENT!',
-    icon: 'ios-infinite',
+    icon: 'infinite',
     src: 'https://http.cat/200',
   },
   {

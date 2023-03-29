@@ -27,3 +27,8 @@
   z-index: -1;
 }
 </style>
+
+<route lang="yaml">
+meta:
+  layout: gallery
+  </route>
