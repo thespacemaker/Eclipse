@@ -9,11 +9,14 @@
       title="Eclipse Entertainment"
       subtitle="THE INDUSTRY’S SOLUTION TO SUCCESSFUL THEMED EVENT PRODUCTION!"
     />
-    <div class="flex justify-center py-12">
-      <div class="m-2">
+    <h2 class="text-12 mt-12">
+      Contact Us
+    </h2>
+    <div class="md:flex justify-center py-8">
+      <div class="m-2 mx-12">
         <Form />
       </div>
-      <div class="m-2">
+      <div class="m-2 mx-12">
         <Info />
       </div>
     </div>

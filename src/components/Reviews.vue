@@ -15,17 +15,17 @@ const onSlideChange = (e) => {
 
 const reviews = ref([
   {
-    text: 'Thank you really does not far enough to express our gratitude to you for your contribution to this enormously successful event, nor does it adequately express our admiration for your organization’s creativity, persistence, generosity and professionalism in developing and then executing this extraordinary event. We look forward to working with you again, referring our clients to your care and toasting our collective successes often!',
+    text: 'Thank you really does not say enough to express our gratitude to you for your contribution to this enormously successful event, nor does it adequately express our admiration for your organization’s creativity, persistence, generosity and professionalism in developing and then executing this extraordinary event. We look forward to working with you again, referring our clients to your care and toasting our collective successes often!',
     reviewer: 'LYNNE DUNCAN',
     reviewerTitle: 'Director of Catering Hilton Anatole Dallas',
   },
   {
-    text: 'Thank you really does not far enough to express our gratitude to you for your contribution to this enormously successful event, nor does it adequately express our admiration for your organization’s creativity, persistence, generosity and professionalism in developing and then executing this extraordinary event. We look forward to working with you again, referring our clients to your care and toasting our collective successes often!',
+    text: 'Thank you really does not say enough to express our gratitude to you for your contribution to this enormously successful event, nor does it adequately express our admiration for your organization’s creativity, persistence, generosity and professionalism in developing and then executing this extraordinary event. We look forward to working with you again, referring our clients to your care and toasting our collective successes often!',
     reviewer: 'DWAYNE S. WOODRING',
     reviewerTitle: 'Executive Directore/CEO, Religious Conference Management Association',
   },
   {
-    text: 'Thank you really does not far enough to express our gratitude to you for your contribution to this enormously successful event, nor does it adequately express our admiration for your organization’s creativity, persistence, generosity and professionalism in developing and then executing this extraordinary event. We look forward to working with you again, referring our clients to your care and toasting our collective successes often!',
+    text: 'Thank you really does not say enough to express our gratitude to you for your contribution to this enormously successful event, nor does it adequately express our admiration for your organization’s creativity, persistence, generosity and professionalism in developing and then executing this extraordinary event. We look forward to working with you again, referring our clients to your care and toasting our collective successes often!',
     reviewer: 'LYNN SMITH',
     reviewerTitle: 'CMP VP of CMeetings, Association of Fundraising Professionals',
   },
@@ -55,7 +55,7 @@ const reviews = ref([
         >
           <div class="md:m-12">
             <p
-              class="text-7 text-white font-extralight"
+              class="text-4 md:text-7 text-white font-extralight"
             >
               "{{ review.text }}""
             </p>
@@ -74,7 +74,7 @@ const reviews = ref([
 
 <style scoped>
 .background {
-  background-image: url("bg-5.jpeg");
+  background-image: url("../assets/img/bg-5.jpeg");
   background-repeat: none;
   background-size: cover;
 }

@@ -77,24 +77,24 @@ const acts3List = ref([
 <template>
   <div class="bg-gray-100 flex flex-col justify-center w-full p-12">
     <div class="p-8 text-10 rale text-center w-full">
-      <h2>Eclipse Entertainment is an <span class="font-bold">all</span>-inclusive event provider.<br> Our acts include, but not limited to:</h2>
+      <h2>Eclipse Entertainment is an all-inclusive event provider.<br> Our acts include, but are not limited to:</h2>
     </div>
-    <div class="flex p-8  text-black w-full justify-center">
+    <div class="flex p-8  text-black w-full justify-center m-2">
       <ul class="mx-4 text-left">
         <li v-for="item in actsList">
           <div>
-            <ion-icon class=" text-blue-500" name="md-arrow-forward" />{{ item }}
+            {{ item }}
           </div>
         </li>
       </ul>
       <ul class="mx-4 text-left">
         <li v-for="item in acts2List">
-          <ion-icon class="text-blue-500" name="md-arrow-forward" />{{ item }}
+          {{ item }}
         </li>
       </ul>
       <ul class="mx-4 text-left">
         <li v-for="item in acts3List">
-          <ion-icon class="text-blue-500" name="md-arrow-forward" />{{ item }}
+          {{ item }}
         </li>
       </ul>
     </div>

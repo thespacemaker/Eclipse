@@ -37,14 +37,70 @@ const galleryPhotos = ref([
     aspect: 'aspect-square',
   },
   {
-    src: 'img/tall.jpg',
+    src: 'img/star.jpg',
     aspect: 'aspect-square',
   },
+  {
+    src: 'img/duet.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/tron.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/leopard.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/flying.jpg',
+    aspect: 'aspect-video',
+  },
+  {
+    src: 'img/cowboy.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/swing.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/arial.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/camo.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/showgirls.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/snake.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/statue.jpg',
+    aspect: 'aspect-square',
+  },
+  {
+    src: 'img/hoola.jpg',
+    aspect: 'aspect-video',
+  },
+  {
+    src: 'img/greek.jpg',
+    aspect: 'aspect-square',
+  },
+  // {
+  //   src: 'img/tall.jpg',
+  //   aspect: 'aspect-square',
+  // },
 ])
 </script>
 
 <template>
-  <div class="gap-8 columns-3">
+  <div class="gap-8 md:columns-3 lg:columns-4 columns-2">
     <img
       v-for="(img, index) in galleryPhotos"
       :key="index"
@@ -74,15 +130,13 @@ div {
 img {
   position: relative;
   animation-name: example;
-  animation-duration: 15s;
+  animation-duration: 30s;
+  animation-iteration-count: 100;
   z-index: 1;
 }
 
 @keyframes example {
   0%   {left:0px; top:0px;}
-  25%  {left:0px; top:-40px;}
-  50%  {left:0px; top:-80px;}
-  75%  {left:0px; top:-120px;}
-  100% {left:0px; top:-160px;}
+  100% {left:0px; top:-600px;}
 }
 </style>

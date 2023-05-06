@@ -15,6 +15,8 @@
     "up": "taze major -I"
   },
   "dependencies": {
+    "@formkit/themes": "^0.16.4",
+    "@formkit/vue": "^0.16.4",
     "@unocss/reset": "^0.48.4",
     "@vueuse/core": "^9.11.0",
     "@vueuse/head": "^1.0.22",

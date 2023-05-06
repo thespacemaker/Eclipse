@@ -40,12 +40,15 @@ const images = [
 const buttons = [
   {
     title: 'ABOUT ECLIPSE',
+    src: '/company',
   },
   {
     title: 'SERVICES',
+    src: '/services',
   },
   {
     title: 'THEMES',
+    src: '/themes',
   },
 ]
 </script>
@@ -80,13 +83,9 @@ const buttons = [
         </swiper-container>
       </div>
       <div class="flex flex-wrap justify-center my-8">
-        <button
-          v-for="button in buttons"
-          :key="button.title"
-          class="bg-blue m-0.5 p-4 w-40"
-        >
+        <router-link v-for="button in buttons" :key="button.src" :to="button.src" tag="button" class="bg-blue m-0.5 p-4 w-40">
           {{ button.title }}
-        </button>
+        </router-link>
       </div>
       <div class="my-auto mx-auto">
         <p class="my-8 text-wrap my-auto mx-auto md:text-5 md:max-w-prose">

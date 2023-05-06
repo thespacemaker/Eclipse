@@ -27,7 +27,8 @@ const { t } = useI18n()
       video-url="https://www.youtube.com/embed/Iyh4GPj5HUU"
       class="p-12"
     /> -->
-    <!-- <Reviews /> -->
+    <Reviews />
+    <Vendors />
   </div>
 </template>
 

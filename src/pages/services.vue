@@ -33,5 +33,6 @@
       video-url="https://www.youtube.com/embed/Iyh4GPj5HUU"
     />
     <Reviews />
+    <Vendors />
   </div>
 </template>
