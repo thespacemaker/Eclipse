@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <iframe id="background-video" src="https://www.youtube.com/embed/NfjOgnagE8s?&autoplay=1&mute=1&playsinline=1&controls=0&modestbranding&rel=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+  <iframe id="background-video" src="https://www.youtube.com/embed/v1Ly0EyXBxo?playlist=v1Ly0EyXBxo&autoplay=1&loop=1&mute=1&playsinline=1&controls=0&modestbranding" loop="1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; loop; picture-in-picture" allowfullscreen />
   <div id="text">
     <img class="invisible md:visible" src="../../assets/img/headerlogo.png">
   </div>

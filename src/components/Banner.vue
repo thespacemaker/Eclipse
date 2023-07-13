@@ -26,7 +26,7 @@ const props = defineProps({
 .background {
   background-repeat: none;
   background-size: stretch;
-  background-image: url('bg-6.jpeg');
+  background-image: url('img/bg-6.jpeg');
 }
 
 .overlay {
